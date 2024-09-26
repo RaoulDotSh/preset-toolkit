@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "preset_toolkit"
+version = "0.0.1"
+authors = [
+    {name = "RaoulDotSh"},
+]
+license = {file = "LICENSE"}
+description = "Python toolkit for FabFilter Pro-Q 3 presets and SoundID Reference exports. Read, write, and convert EQ settings."
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "black",
+]
+
+dynamic = ["version"]
+
